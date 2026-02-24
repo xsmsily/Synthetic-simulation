@@ -1,0 +1,9 @@
+function affinity = calu_affinity2()
+
+affinity = struct('AA', 0.5, 'AT', 0.5, 'AC', 0.5, 'AG', 0.5, ...
+                 'TA', 0.5, 'TT', 0, 'TC', 0.5, 'TG', 0.2, ...
+                 'CA', 0.5, 'CT', 0.5, 'CC', 0.5, 'CG', 0.5, ...
+                 'GA', 0.5, 'GT', 0, 'GC', 0.5, 'GG', 0.2);
+
+
+end
